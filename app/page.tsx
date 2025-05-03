@@ -32,7 +32,7 @@ export default async function Home() {
         />
         </div>
         <div className='mt-4 bg-gray-300 mx-auto max-w-[240px] rounded-md py-3 px-2'>
-         <p>Test</p>
+         <p>https://placeholdr.evarioo.eu/600x400</p>
         </div>
       </div>
     </main>
