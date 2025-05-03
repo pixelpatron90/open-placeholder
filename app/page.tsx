@@ -31,7 +31,9 @@ export default async function Home() {
         alt=''
         />
         </div>
-        <p className='mt-4 bg-gray-300'>Test</p>
+        <div className='mt-4 bg-gray-300 mx-auto max-w-[240px] rounded-md py-3 px-2'>
+         <p>Test</p>
+        </div>
       </div>
     </main>
   );
