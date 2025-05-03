@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default async function Home() {
   return (
-    <main className='w-full py-12 md:py-24 lg:py-32 font-sans bg-gray-800 space-y-6'>
+    <main className='w-full py-12 md:py-24 lg:py-32 space-y-6'>
       <div className='container px-4 md:px-6 text-center mx-auto'>
         <h1 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white'>
           OpenPlaceholder powered by evarioo
@@ -15,7 +15,12 @@ export default async function Home() {
           Original from <a href="https://github.com/akshitkrnagpal/open-placeholder">akshitkrnagpal</a>
         </p>
       </div>
-      <Image
+
+      <div className='container px-4 md:px-6 text-center mx-auto'>
+        <h1 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white'>
+          Examples
+        </h1>
+        <Image
         priority
         className='mx-auto'
         unoptimized
@@ -23,7 +28,9 @@ export default async function Home() {
         width={600}
         height={400}
         alt=''
-      />
+        />
+        <p className='blockquote'>Test</p>
+      </div>
     </main>
   );
 }
