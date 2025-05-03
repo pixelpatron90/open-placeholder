@@ -2,6 +2,8 @@
 
 Use it for free. Contribute to <a href="https://github.com/akshitkrnagpal/open-placeholder">akshitkrnagpal</a>
 
+https://placeholdr.evarioo.eu
+
 ## Usage 
 
 ### Sizes
