@@ -1,3 +1,7 @@
+## Started from pixelpatron & evarioo.eu
+
+Use it for free. Contribute to <a href="https://github.com/akshitkrnagpal/open-placeholder">akshitkrnagpal</a>
+
 <p align="center">
   <a href="https://open-placeholder.vercel.app">
     <img src="https://open-placeholder.vercel.app/600x400">
