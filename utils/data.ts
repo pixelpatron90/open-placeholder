@@ -15,7 +15,7 @@ const schema = z
 
 export const getGithubRepoData = async () => {
   const response = await fetch(
-    `https://api.github.com/repos/akshitkrnagpal/open-placeholder`
+    `https://api.github.com/repos/pixelpatron90/open-placeholder`
   );
   const data = await response.json();
   return schema.parse(data);
