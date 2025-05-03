@@ -13,7 +13,7 @@ export default async function Home() {
           {description}
         </p>
         <div className='flex items-center w-[120px] mx-auto mt-6'>
-Lorem ipsum
+<p>Original from <a href="https://github.com/akshitkrnagpal/open-placeholder">akshitkrnagpal</a></p>
         </div>
       </div>
       <Image
