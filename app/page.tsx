@@ -13,12 +13,7 @@ export default async function Home() {
           {description}
         </p>
         <div className='flex items-center w-[120px] mx-auto mt-6'>
-          <iframe
-            src='https://ghbtns.com/github-btn.html?user=akshitkrnagpal&repo=open-placeholder&type=star&count=true&size=large'
-            width='170'
-            height='30'
-            title='GitHub'
-          ></iframe>
+Lorem ipsum
         </div>
       </div>
       <Image
