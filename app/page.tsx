@@ -6,12 +6,12 @@ export default async function Home() {
     <main className='w-full py-12 md:py-24 lg:py-32 space-y-6'>
       <div className='container px-4 md:px-6 text-center mx-auto'>
         <h1 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white'>
-          OpenPlaceholder powered by evarioo
+          OpenPlaceholder
         </h1>
-        <p className='mx-auto max-w-[700px] text-gray-300 md:text-xl mt-4'>
-          Use it for free. Now.
+        <p className='mx-auto max-w-[700px] text-text-gray-300 md:text-xl mt-4'>
+          Powered by evarioo. Use it for free. Now.
         </p>
-        <p className='mx-auto max-w-[700px] text-gray-300 md:text-xl mt-4'>
+        <p className='mx-auto max-w-[700px] text-gray-300 md:text-lg'>
           Original from <a href="https://github.com/akshitkrnagpal/open-placeholder">akshitkrnagpal</a>
         </p>
       </div>
@@ -20,7 +20,8 @@ export default async function Home() {
         <h1 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white'>
           Examples
         </h1>
-        <Image
+        <div className='mt-4'>
+          <Image
         priority
         className='mx-auto'
         unoptimized
@@ -29,7 +30,8 @@ export default async function Home() {
         height={400}
         alt=''
         />
-        <p className='blockquote'>Test</p>
+        </div>
+        <p className='mt-4 bg-gray-300'>Test</p>
       </div>
     </main>
   );
